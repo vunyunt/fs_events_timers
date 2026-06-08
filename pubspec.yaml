@@ -1,0 +1,16 @@
+name: fs_events_timers
+description: Shared timer interfaces and event dispatchers for Drisc and FrogSoup.
+version: 1.0.0
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.34.0
+  protobuf: ^6.0.0
+  protobuf_serializable_components:
+    path: ../protobuf_serializable_components
+  fs_random:
+    path: ../fs_random
